@@ -17,6 +17,14 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 
+/**
+ * 
+ * 获取工作日和节假日后导入Excel
+ * 
+ * @version 1.0
+ * @author wangcy
+ * @date 2019年5月31日 下午2:58:24
+ */
 public class WorkingDay {
 
 	private static final String WORK_DAY = "1";				// 工作日

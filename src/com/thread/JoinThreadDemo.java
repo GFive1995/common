@@ -15,7 +15,7 @@ public class JoinThreadDemo {
 			JoinThread joinThread = new JoinThread();
 			joinThread.setName("线程" + i);
 			joinThread.start();
-			joinThread.join();	
+			joinThread.join();
 		}
 	}
 	

@@ -1,7 +1,7 @@
 package com.designpattern.single;
 
 
-public class Test {
+public class SingleTest {
 	
 	public static void main(String[] args) {
 		EagerSingleton eagerSingleton1, eagerSingleton2;

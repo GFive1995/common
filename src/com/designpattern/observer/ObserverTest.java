@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Test {
+public class ObserverTest {
 
 	public static void main(String[] args) {
 		System.out.println("jobOne:" + Common.jobOne + "-----jobTwo:" + Common.jobTwo);

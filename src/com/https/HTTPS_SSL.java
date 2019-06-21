@@ -24,7 +24,7 @@ import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
 import org.apache.http.util.EntityUtils;
 
 public class HTTPS_SSL {
-
+ 
 	private static String PASSWORD;			// 证书密码
 	private static String PATH;				// 证书地址
 	private static String URL;				// HTTPS请求地址

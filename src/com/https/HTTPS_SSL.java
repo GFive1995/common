@@ -32,7 +32,7 @@ public class HTTPS_SSL {
 	private static int CONNECTTIMEOUTMS;	// 连接超时时间
 	private static int READTIMEOUTMS;		// 传输超时时间
 	
-	private String requestSSL() throws Exception {
+	public static String requestSSL() throws Exception {
 		BasicHttpClientConnectionManager connManager;
 		// 证书
 		char[] password = PASSWORD.toCharArray();

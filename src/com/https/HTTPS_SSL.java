@@ -23,6 +23,17 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.conn.BasicHttpClientConnectionManager;
 import org.apache.http.util.EntityUtils;
 
+/**
+ * 
+ * Java HTTPS+SSL 请求
+ * 
+ * @version 1.0
+ * @since JDK1.7
+ * @author wangcy
+ * @company 上海朝阳永续信息技术有限公司
+ * @copyright (c) 2019 SunTime Co'Ltd Inc. All rights reserved.
+ * @date 2019年6月24日 上午10:24:56
+ */
 public class HTTPS_SSL {
  
 	private static String PASSWORD;			// 证书密码

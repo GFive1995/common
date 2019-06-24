@@ -6,6 +6,14 @@ import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
 import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;
 import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination;
 
+/**
+ * 
+ * 汉字转换拼音
+ * 
+ * @version 1.0
+ * @author wangcy
+ * @date 2019年6月24日 上午10:24:36
+ */
 public class PinyinTool {
 
 	public static HanyuPinyinOutputFormat format = new HanyuPinyinOutputFormat();

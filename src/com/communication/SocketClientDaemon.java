@@ -7,7 +7,6 @@ import java.util.concurrent.CountDownLatch;
  * 客户端
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午1:47:41
  */
 public class SocketClientDaemon {

@@ -10,7 +10,6 @@ import java.net.Socket;
  * 服务端：阻塞IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午1:46:10
  */
 public class SocketServer1 {

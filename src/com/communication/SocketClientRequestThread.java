@@ -11,7 +11,6 @@ import java.util.concurrent.CountDownLatch;
  * 客户端多线程调用
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午1:48:06
  */
 public class SocketClientRequestThread implements Runnable {

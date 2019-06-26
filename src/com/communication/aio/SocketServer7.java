@@ -17,7 +17,6 @@ import java.util.concurrent.Executors;
  * 服务端：异步IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午4:46:28
  */
 public class SocketServer7 {
@@ -48,7 +47,6 @@ public class SocketServer7 {
  * 响应 ServerSocketChannel 事件
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午5:22:40
  */
 class ServerSocketChannelHandle implements CompletionHandler<AsynchronousSocketChannel, Void> {
@@ -91,7 +89,6 @@ class ServerSocketChannelHandle implements CompletionHandler<AsynchronousSocketC
  * 对是一个对象引用（但这没关系，因为您不会直接操作这个AsynchronousChannelProvider对象）。
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午5:44:00
  */
 class SocketChannelReadHandle implements CompletionHandler<Integer, StringBuffer> {

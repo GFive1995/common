@@ -32,7 +32,6 @@ import io.netty.util.concurrent.DefaultThreadFactory;
  * 服务端HTTP：netty
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月26日 上午11:17:07
  */
 public class HTTPNetty {

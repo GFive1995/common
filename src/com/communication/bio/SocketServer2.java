@@ -11,7 +11,6 @@ import java.net.Socket;
  * 服务端多线程：阻塞IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午1:48:22
  */
 public class SocketServer2 {

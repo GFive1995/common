@@ -18,7 +18,6 @@ import java.util.Iterator;
  * 服务端：多路复用IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午2:48:45
  */
 public class SocketServer5 {
@@ -85,7 +84,6 @@ public class SocketServer5 {
 	 * @param selector		selector "选择器/代理器"
 	 * @throws Exception
 	 * 
-	 * @author wangcy
 	 * @date 2019年6月25日 下午3:23:22
 	 */
 	private static void registerSocketChannel(SocketChannel socketChannel, Selector selector) throws Exception {
@@ -103,7 +101,6 @@ public class SocketServer5 {
 	 * @param readyKey
 	 * @throws Exception
 	 * 
-	 * @author wangcy
 	 * @date 2019年6月25日 下午3:41:37
 	 */
 	private static void readSocketChannel(SelectionKey readyKey) throws Exception {

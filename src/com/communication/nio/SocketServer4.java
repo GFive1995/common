@@ -11,7 +11,6 @@ import java.net.SocketTimeoutException;
  * 服务端多线程：非阻塞IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午2:34:21
  */
 public class SocketServer4 {

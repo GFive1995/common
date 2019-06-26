@@ -19,7 +19,6 @@ import java.util.concurrent.ConcurrentMap;
  * 服务端：多路复用IO(缓存优化)
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午3:47:26
  */
 public class SocketServer6 {
@@ -90,7 +89,6 @@ public class SocketServer6 {
 	 * @param selector		selector "选择器/代理器"
 	 * @throws Exception
 	 * 
-	 * @author wangcy
 	 * @date 2019年6月25日 下午3:23:22
 	 */
 	private static void registerSocketChannel(SocketChannel socketChannel , Selector selector) throws Exception {

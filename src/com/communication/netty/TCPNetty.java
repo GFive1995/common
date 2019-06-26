@@ -25,7 +25,6 @@ import io.netty.util.concurrent.DefaultThreadFactory;
  * 服务端TCP：netty
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月26日 上午11:05:00
  */
 public class TCPNetty {

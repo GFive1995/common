@@ -12,7 +12,6 @@ import java.net.SocketTimeoutException;
  * 服务端：非阻塞IO
  * 
  * @version 1.0
- * @author wangcy
  * @date 2019年6月25日 下午2:27:24
  */
 public class SocketServer3 {

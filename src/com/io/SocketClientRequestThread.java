@@ -36,8 +36,10 @@ public class SocketClientRequestThread implements Runnable {
 			this.countDownLatch.await();
 			
 			// 发送请求信息
-			clientRequest.write(("这是第" + clientIndex + "个客户端的请求。").getBytes());
+			clientRequest.write(("这是第" + clientIndex + "个客户端的请求。开始").getBytes());
 			clientRequest.flush();
+			clientRequest.write(("这是第" + clientIndex + "个客户端的请求。结束").getBytes());
+
 			
 			// 在这里等待，知道服务器返回信息
 			System.out.println("第" + clientIndex + "个客户端的请求发送完成，等待服务器返回信息");

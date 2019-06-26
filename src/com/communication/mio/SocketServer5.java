@@ -1,4 +1,4 @@
-package com.io.mio;
+package com.communication.mio;
 
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;

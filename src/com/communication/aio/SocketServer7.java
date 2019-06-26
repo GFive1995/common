@@ -1,4 +1,4 @@
-package com.io.aio;
+package com.communication.aio;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

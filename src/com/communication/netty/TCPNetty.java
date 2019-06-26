@@ -1,4 +1,4 @@
-package com.io.netty;
+package com.communication.netty;
 
 import java.net.InetSocketAddress;
 import java.nio.channels.spi.SelectorProvider;

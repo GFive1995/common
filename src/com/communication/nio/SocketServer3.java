@@ -1,4 +1,4 @@
-package com.io.nio;
+package com.communication.nio;
 
 import java.io.IOException;
 import java.io.InputStream;

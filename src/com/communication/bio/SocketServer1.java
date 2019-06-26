@@ -1,4 +1,4 @@
-package com.io.bio;
+package com.communication.bio;
 
 import java.io.InputStream;
 import java.io.OutputStream;

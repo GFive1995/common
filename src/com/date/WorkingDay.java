@@ -83,6 +83,8 @@ public class WorkingDay {
 			outputStream.flush();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
+		} finally {
+			workbook.close();
 		}
 		System.out.println("导出成功");
 	}

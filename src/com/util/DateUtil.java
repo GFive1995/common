@@ -14,6 +14,7 @@ public class DateUtil {
 		System.out.println(stringToDate("2019-07-03 00:00:00", DateUtil.FORMAT_DEFAULT));
 		System.out.println(getAfterDate(new Date(), 1));
 		System.out.println(getBeforeDate(new Date(), 1));
+		System.out.println(getIntegerWeek(new Date()));
 	}
 
 	/**
@@ -87,4 +88,23 @@ public class DateUtil {
 		return calendar.getTime();
 	}
 	
+	/**
+	 * 
+	 * 方法描述:得到指定日期的星期数，周一为1，周日为7
+	 *
+	 * @param date
+	 * @return
+	 * 
+	 */
+	public static Integer getIntegerWeek(Date date) {
+		Calendar cd = Calendar.getInstance();
+		cd.setTime(date);
+		int week = cd.get(Calendar.DAY_OF_WEEK);
+		if (week == 1) {
+			week = 7;
+		} else {
+			week = week - 1;
+		}
+		return week;
+	}
 }

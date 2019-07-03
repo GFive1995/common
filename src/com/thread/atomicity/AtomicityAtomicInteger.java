@@ -7,8 +7,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * AtomicInteger自增
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月28日 上午11:42:35
  */
 public class AtomicityAtomicInteger {
 

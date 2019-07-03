@@ -5,8 +5,6 @@ package com.thread;
  * 线程睡眠排序
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月4日 下午1:43:09
  */
 public class SortThreadDemo implements Runnable {
 

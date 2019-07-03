@@ -8,8 +8,6 @@ package com.thread.atomicity;
  * 自增操作不是原子性：包括读取变量原始值，进行+1操作，写入内存操作
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月28日 上午11:15:49
  */
 public class AtomicityVolatile {
 

@@ -22,8 +22,6 @@ import com.google.common.collect.Maps;
  * 获取工作日和节假日后导入Excel
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年5月31日 下午2:58:24
  */
 public class WorkingDay {
 
@@ -95,8 +93,6 @@ public class WorkingDay {
 	 *
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午10:26:36
 	 */
 	public static List<String> getHolidayList() {
 		List<String> holidayList = Lists.newArrayList();
@@ -136,8 +132,6 @@ public class WorkingDay {
 	 *
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午10:26:58
 	 */
 	public static List<String> getWorkdayList() {
 		List<String> workDayList = Lists.newArrayList();
@@ -158,8 +152,6 @@ public class WorkingDay {
 	 * @param afterDays
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午10:27:16
 	 */
 	public static Date getAfterDate(Date day, int afterDays) {
         Calendar afterDay = Calendar.getInstance();
@@ -176,8 +168,6 @@ public class WorkingDay {
 	 * @param formatPattern
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午11:01:00
 	 */
 	public static Date stringToDate(String sDate, String formatPattern) {
 		if (sDate == null || "".equals(sDate.trim())) {
@@ -201,8 +191,6 @@ public class WorkingDay {
 	 * @param formatPattern
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午11:04:12
 	 */
 	public static String dateToString(Date date, String formatPattern) {
 		if (date == null) {
@@ -219,8 +207,6 @@ public class WorkingDay {
 	 * @param date
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年5月31日 上午11:05:02
 	 */
 	public static Integer getIntegerWeek(Date date) {
 		Calendar cd = Calendar.getInstance();

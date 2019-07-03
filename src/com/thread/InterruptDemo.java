@@ -5,8 +5,6 @@ package com.thread;
  * 中断信号Interrupt
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月25日 上午10:42:19
  */
 public class InterruptDemo {
 

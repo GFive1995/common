@@ -5,8 +5,6 @@ package com.thread;
  * 死锁Demo
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年5月31日 下午2:58:51
  */
 public class DeadLockDemo {
 	private static Object resource1 = "资源1";

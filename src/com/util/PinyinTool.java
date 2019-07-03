@@ -11,8 +11,6 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
  * 汉字转换拼音
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月24日 上午10:24:36
  */
 public class PinyinTool {
 
@@ -47,8 +45,6 @@ public class PinyinTool {
 	 * @return
 	 * @throws BadHanyuPinyinOutputFormatCombination
 	 * 
-	 * @author wangcy
-	 * @date 2018年11月28日11:45:56
 	 */
 	public static String toPinYin(String str, String spera, Type type) throws BadHanyuPinyinOutputFormatCombination {
 		if (str == null || str.trim().length() == 0)

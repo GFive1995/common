@@ -11,8 +11,6 @@ import java.util.concurrent.TimeUnit;
  * 对于这些任务的执行是立即的、一次性的
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月25日 上午11:01:34
  */
 public class ThreadPoolExecutorSimple {
 

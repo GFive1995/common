@@ -24,8 +24,6 @@ import com.alibaba.fastjson.JSONObject;
  * 图片验证码
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月4日 上午9:42:04
  */
 public class ValidationCode {
 

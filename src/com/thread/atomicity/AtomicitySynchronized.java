@@ -5,8 +5,6 @@ package com.thread.atomicity;
  * synchronized自增
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月28日 上午11:36:10
  */
 public class AtomicitySynchronized {
 

@@ -28,8 +28,6 @@ public class ExcelUtil {
 	 * @param fieldList	表头对应字段
 	 * @param dataList	数据
 	 * 
-	 * @author wangcy
-	 * @date 2019年6月26日 下午4:35:38
 	 */
 	public static void downloadExcel(String excelName, String path, List<String> headList, List<String> fieldList, List<Map<String, Object>> dataList) {
 		Workbook workbook = null;
@@ -87,8 +85,6 @@ public class ExcelUtil {
 	 * @param PATH		Excel路径
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年6月26日 下午5:58:51
 	 */
 	public static List<Map<String, Object>> getExcelData(String path) {
 		List<Map<String, Object>> dataList = new ArrayList<>();

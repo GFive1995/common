@@ -8,8 +8,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * lock自增
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月28日 上午11:38:50
  */
 public class AtomicityLock {
 

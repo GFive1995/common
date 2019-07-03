@@ -5,8 +5,6 @@ package com.thread;
  * 线程按顺序执行：join()方法
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月3日 上午10:18:19
  */
 public class JoinDemo {
 	

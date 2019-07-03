@@ -20,8 +20,6 @@ public class FileUtil {
 	 *
 	 * @param path
 	 * 
-	 * @author wangcy
-	 * @date 2019年6月26日 下午4:44:51
 	 */
 	public static void mkdir(String path) {
         try {
@@ -44,8 +42,7 @@ public class FileUtil {
 	 *
 	 * @param jsonString	文件内容
 	 * @param filePath		文件地址
-	 * @author wangcy
-	 * @date 2019年6月27日 下午4:51:00
+	 * 
 	 */
 	public static void createFile(String jsonString, String filePath) {
 		Writer write = null;
@@ -73,8 +70,6 @@ public class FileUtil {
 	 * @param filePath
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年6月27日 下午4:53:42
 	 */
 	public static List<String> getFileNames(String filePath) {
 		List<String> fileNames = Lists.newArrayList();
@@ -97,8 +92,6 @@ public class FileUtil {
 	 * @param filePath
 	 * @return
 	 * 
-	 * @author wangcy
-	 * @date 2019年6月27日 下午4:54:45
 	 */
 	public static String getFileInfo(String filePath) {
 		StringBuilder result = new StringBuilder();   

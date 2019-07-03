@@ -5,8 +5,6 @@ package com.thread;
  * synchronized字段
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月28日 上午11:20:35
  */
 public class SynchronizedTag {
 

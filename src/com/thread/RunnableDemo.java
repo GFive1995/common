@@ -5,8 +5,6 @@ package com.thread;
  * 创建线程：实现Runnable
  * 
  * @version 1.0
- * @author wangcy
- * @date 2019年6月25日 上午10:01:19
  */
 public class RunnableDemo implements Runnable {
 

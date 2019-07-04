@@ -5,6 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 
  * AtomicInteger自增
+ * 乐观锁
  * 
  * @version 1.0
  */
@@ -27,9 +28,13 @@ public class AtomicityAtomicInteger {
 			}).start();
 		}
 		while(Thread.activeCount() > 1) {
-			Thread.yield();
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-		System.out.println(atomicityAtomicInteger.count);
+		System.out.println("AtomicInteger(乐观锁):" + atomicityAtomicInteger.count);
 	}
 	
 }

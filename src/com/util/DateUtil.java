@@ -15,6 +15,7 @@ public class DateUtil {
 		System.out.println(getAfterDate(new Date(), 1));
 		System.out.println(getBeforeDate(new Date(), 1));
 		System.out.println(getIntegerWeek(new Date()));
+		System.out.println(daysBetween(stringToDate("2019-07-04 00:00:00", DateUtil.FORMAT_DEFAULT), stringToDate("2019-04-02 00:00:00", DateUtil.FORMAT_DEFAULT)));
 	}
 
 	/**
@@ -106,5 +107,34 @@ public class DateUtil {
 			week = week - 1;
 		}
 		return week;
+	}
+	
+	/**
+	 * 
+	 * 方法描述:获取两个时间相隔天数
+	 *
+	 * @param state
+	 * @param edate
+	 * @return
+	 * 
+	 */
+	public static Integer daysBetween(Date state, Date edate) {
+		if (state == null || edate == null) {
+			return null;
+		}
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		try {
+			state = sdf.parse(sdf.format(state));
+			edate = sdf.parse(sdf.format(edate));
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(state);
+		long time1 = cal.getTimeInMillis();
+		cal.setTime(edate);
+		long time2 = cal.getTimeInMillis();
+		long between_days = (time2 - time1) / (1000 * 3600 * 24);
+		return Integer.parseInt(String.valueOf(between_days));
 	}
 }

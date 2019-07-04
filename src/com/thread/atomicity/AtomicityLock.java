@@ -34,9 +34,13 @@ public class AtomicityLock {
 			}).start();
 		}
 		while (Thread.activeCount() > 1) {
-			Thread.yield();
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-		System.out.println(atomicityLock.count);
+		System.out.println("lock:" + atomicityLock.count);
 	}
 	
 }

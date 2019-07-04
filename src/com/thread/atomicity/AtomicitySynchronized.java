@@ -3,6 +3,7 @@ package com.thread.atomicity;
 /**
  * 
  * synchronized自增
+ * 悲观锁
  * 
  * @version 1.0
  */
@@ -24,10 +25,14 @@ public class AtomicitySynchronized {
 				}
 			}).start();;
 		}
-		if (Thread.activeCount() > 1) {
-			Thread.yield();
+		while(Thread.activeCount() > 1) {
+			try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-		System.out.println(atomicitySynchronized.count);
+		System.out.println("synchronized(悲观锁):" + atomicitySynchronized.count);
 	}
 	
 }

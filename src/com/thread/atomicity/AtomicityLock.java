@@ -5,7 +5,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * 
- * lock自增
+ * ReentrantLock自增
+ * 可重入锁
  * 
  * @version 1.0
  */
@@ -23,11 +24,12 @@ public class AtomicityLock {
 	}
 
 	public static void main(String[] args) {
+		Long time = System.currentTimeMillis();
 		final AtomicityLock atomicityLock = new AtomicityLock();
 		for (int i = 0; i < 10; i++) {
 			new Thread(new Runnable() {
 				public void run() {
-					for (int j = 0; j < 1000; j++) {
+					for (int j = 0; j < 10000000; j++) {
 						atomicityLock.increase();
 					}
 				}
@@ -40,7 +42,8 @@ public class AtomicityLock {
 				e.printStackTrace();
 			}
 		}
-		System.out.println("lock:" + atomicityLock.count);
+		System.out.println("运行时间:" + (System.currentTimeMillis() - time));
+		System.out.println("ReentrantLock(可重入锁):" + atomicityLock.count);
 	}
 	
 }

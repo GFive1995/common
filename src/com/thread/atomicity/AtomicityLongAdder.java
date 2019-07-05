@@ -1,29 +1,29 @@
 package com.thread.atomicity;
 
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.LongAdder;
 
 /**
  * 
- * AtomicInteger自增
+ * LongAdder自增
  * 乐观锁
  * 
  * @version 1.0
  */
-public class AtomicityAtomicInteger {
+public class AtomicityLongAdder {
 
-	private AtomicInteger count = new AtomicInteger();
+	private LongAdder count = new LongAdder();
 	private void increase() {
-		count.getAndIncrement();
+		count.increment();
 	}
 	
 	public static void main(String[] args) {
 		Long time = System.currentTimeMillis();
-		final AtomicityAtomicInteger atomicityAtomicInteger = new AtomicityAtomicInteger();
+		final AtomicityLongAdder atomicityLongAdder = new AtomicityLongAdder();
 		for (int i = 0; i < 100; i++) {
 			new Thread(new Runnable() {
 				public void run() {
 					for (int j = 0; j < 100000; j++) {
-						atomicityAtomicInteger.increase();
+						atomicityLongAdder.increase();
 					}
 				}
 			}).start();
@@ -36,7 +36,7 @@ public class AtomicityAtomicInteger {
 			}
 		}
 		System.out.println("运行时间:" + (System.currentTimeMillis() - time));
-		System.out.println("AtomicInteger(乐观锁):" + atomicityAtomicInteger.count);
+		System.out.println("LongAdder(乐观锁):" + atomicityLongAdder.count);
 	}
 	
 }

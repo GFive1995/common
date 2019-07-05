@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/poi-3.10.1-20140818.jar"/>
-	<classpathentry kind="lib" path="lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="lib/guava-18.0.jar" sourcepath="C:/Users/WANGCY~1.COM/AppData/Local/Temp/decompiler/source/guava-18.0-sources.jar"/>
 	<classpathentry kind="lib" path="lib/fastjson-1.2.12.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="lib/cglib-nodep-2.1_3.jar"/>

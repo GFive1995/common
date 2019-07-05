@@ -15,11 +15,12 @@ public class AtomicitySynchronized {
 	}
 	
 	public static void main(String[] args) {
+		Long time = System.currentTimeMillis();
 		final AtomicitySynchronized atomicitySynchronized = new AtomicitySynchronized();
 		for (int i = 0; i < 10; i++) {
 			new Thread(new Runnable() {
 				public void run() {
-					for (int j = 0; j < 1000; j++) {
+					for (int j = 0; j < 10000000; j++) {
 						atomicitySynchronized.increase();
 					}
 				}
@@ -32,6 +33,7 @@ public class AtomicitySynchronized {
 				e.printStackTrace();
 			}
 		}
+		System.out.println("运行时间:" + (System.currentTimeMillis() - time));
 		System.out.println("synchronized(悲观锁):" + atomicitySynchronized.count);
 	}
 	

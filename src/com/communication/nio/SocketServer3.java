@@ -27,7 +27,6 @@ public class SocketServer3 {
 				Socket socket = null;
 				try {
 					socket = serverSocket.accept();
-					
 				} catch (SocketTimeoutException e) {
 					// 执行说明本次accept没有接收到任何TCP连接
 					synchronized (SocketServer3.xWait) {

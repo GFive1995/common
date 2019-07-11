@@ -18,6 +18,7 @@ public class DeadLockDemo {
 		DeadLockThread deadLockThread2 = new DeadLockThread(resource2, resource1);
 		deadLockThread2.setName("线程2");
 		deadLockThread2.start();
+
 	}
 	
 }

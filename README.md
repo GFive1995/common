@@ -39,7 +39,7 @@
 [线程死锁](https://github.com/GFive1995/common/blob/master/src/com/thread/DeadLockDemo.java)  
 [线程中断信号Interrupt](https://github.com/GFive1995/common/blob/master/src/com/thread/InterruptDemo.java)  
 [线程按顺序执行Join()](https://github.com/GFive1995/common/blob/master/src/com/thread/JoinDemo.java)  
-[线程六钟状态](https://github.com/GFive1995/common/blob/master/src/com/thread/ThreadStatus.java)  
+[线程六种状态](https://github.com/GFive1995/common/blob/master/src/com/thread/ThreadStatus.java)  
 
 # util(常用工具类)
 [拼音转换汉字](https://github.com/GFive1995/common/blob/master/src/com/util/PinyinTool.java)  

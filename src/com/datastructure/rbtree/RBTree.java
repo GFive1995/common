@@ -248,7 +248,8 @@ public class RBTree<T extends Comparable<T>> {
 	 * 
 	 */
 	public TreeNode<T> balanceInsertion(TreeNode<T> root, TreeNode<T> x) {
-		x.red = true;
+		// 插入结点设置为红色
+		x.red = true;	
 		for (TreeNode<T> xp, xpp, xppl, xppr;;) {
 			// 父节点为空，那么当前节点作为根节点，并设置为黑色
 			if ((xp = x.parent) == null) {
@@ -418,12 +419,12 @@ public class RBTree<T extends Comparable<T>> {
 				rl.parent = p;						// 如果旋转结点右节点的左节点不为空，将其的父节点设置为旋转结点
 			if ((pp = r.parent = p.parent) == null)	// 将旋转结点的父节点设置为旋转结点右节点的父节点，并判断旋转结点父节点是否为空
 				(root = r).red = false;				// 如果旋转结点父节点为空，将旋转结点右节点设置为根节点，颜色设置为黑色
-			else if (pp.left == p)					// 如果旋转结点父节点的左节点是旋转结点		 旋转结点是左节点
+			else if (pp.left == p)					// 如果旋转结点父节点的左节点是旋转结点
 				pp.left = r;						// 将旋转结点的右节点设置为旋转结点父节点的左节点
 			else
 				pp.right = r;						// 否则将旋转结点右节点设置为旋转结点父节点的右节点
-			r.left = p;								// 将旋转结点左节点设置有旋转结点
-			p.parent = r;							// 将旋转结点的父节点设置为旋转结点的右节点
+			r.left = p;								// 将旋转结点左节点设置为其又结点的左节点
+			p.parent = r;							// 将旋转结点右节点设置为旋转结点的父节点
 		}
 		return root;
 	}

@@ -22,11 +22,6 @@ public class RBTreeTest {
 		
 		tree.removeTreeVal(50);
 		tree.preOrder();
-		
-		
-		
-		
-		
 	}
 	
 }

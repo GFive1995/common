@@ -5,19 +5,19 @@
 [jdk](https://github.com/GFive1995/common/tree/master/src/com/aop/jdk)  
 
 # 通信
-[aio(异步IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/aio)  
-[bio(同步阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/bio)  
-[mio(多路复用IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/mio)  
-[netty](https://github.com/GFive1995/common/tree/master/src/com/communication/netty)  
-[nio(异步非阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/nio)  
-[rmi(远程方法调用)](https://github.com/GFive1995/common/tree/master/src/com/communication/rmi)  \
+[AIO(异步IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/aio)  
+[BIO(同步阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/bio)  
+[MIO(多路复用IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/mio)  
+[Netty](https://github.com/GFive1995/common/tree/master/src/com/communication/netty)  
+[NIO(异步非阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/nio)  
+[RMI(远程方法调用)](https://github.com/GFive1995/common/tree/master/src/com/communication/rmi)  \
 
 # 数据结构
 [红黑树](https://github.com/GFive1995/common/tree/master/src/com/datastructure/rbtree)  
 
 # 数据类型
-[Integer数据类型测试](https://github.com/GFive1995/common/blob/master/src/com/datatype/IntegerDemo.java)  
-[String数据类型测试](https://github.com/GFive1995/common/blob/master/src/com/datatype/StringDemo.java)  
+[Integer数据类型](https://github.com/GFive1995/common/blob/master/src/com/datatype/IntegerDemo.java)  
+[String数据类型](https://github.com/GFive1995/common/blob/master/src/com/datatype/StringDemo.java)  
 
 # 设计模式
 [抽象工厂模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/abstractfactory)  
@@ -34,7 +34,7 @@
 [finalize(对象自救)](https://github.com/GFive1995/common/blob/master/src/com/jvm/FinalizeDemo.java)  
 
 # Thread(多线程)
-[并发原子操作](https://github.com/GFive1995/common/tree/master/src/com/thread/atomicity)  
+[并发保证原子性操作](https://github.com/GFive1995/common/tree/master/src/com/thread/atomicity)  
 [线程池创建](https://github.com/GFive1995/common/blob/master/src/com/thread/pool/ThreadPoolExecutorSimple.java)  
 [线程死锁](https://github.com/GFive1995/common/blob/master/src/com/thread/DeadLockDemo.java)  
 [线程中断信号Interrupt](https://github.com/GFive1995/common/blob/master/src/com/thread/InterruptDemo.java)  

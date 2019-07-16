@@ -111,6 +111,22 @@ public class DateUtil {
 	
 	/**
 	 * 
+	 * 方法描述:获取下周一
+	 *
+	 * @param date
+	 * @return
+	 * 
+	 */
+	public static Date getNextMonday(Date date) {
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(date);
+		int week = calendar.get(Calendar.DAY_OF_WEEK);
+		calendar.add(Calendar.DATE, 7+2-week);
+		return calendar.getTime();
+	}
+	
+	/**
+	 * 
 	 * 方法描述:获取两个时间相隔天数
 	 *
 	 * @param state

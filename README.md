@@ -10,7 +10,7 @@
 [MIO(多路复用IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/mio)  
 [Netty](https://github.com/GFive1995/common/tree/master/src/com/communication/netty)  
 [NIO(异步非阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/nio)  
-[RMI(远程方法调用)](https://github.com/GFive1995/common/tree/master/src/com/communication/rmi)  \
+[RMI(远程方法调用)](https://github.com/GFive1995/common/tree/master/src/com/communication/rmi)  
 
 # 数据结构
 [红黑树](https://github.com/GFive1995/common/tree/master/src/com/datastructure/rbtree)  

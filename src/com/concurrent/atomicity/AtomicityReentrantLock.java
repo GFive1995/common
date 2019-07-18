@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 
  * @version 1.0
  */
-public class AtomicityLock {
+public class AtomicityReentrantLock {
 
 	private int count = 0;
 	Lock lock = new ReentrantLock();
@@ -25,7 +25,7 @@ public class AtomicityLock {
 
 	public static void main(String[] args) {
 		Long time = System.currentTimeMillis();
-		final AtomicityLock atomicityLock = new AtomicityLock();
+		final AtomicityReentrantLock atomicityLock = new AtomicityReentrantLock();
 		for (int i = 0; i < 10; i++) {
 			new Thread(new Runnable() {
 				public void run() {

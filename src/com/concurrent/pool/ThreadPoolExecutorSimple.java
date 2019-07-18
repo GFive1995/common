@@ -1,4 +1,4 @@
-package com.thread.pool;
+package com.concurrent.pool;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ForkJoinPool;

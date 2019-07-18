@@ -1,4 +1,4 @@
-package com.thread;
+package com.concurrent.thread;
 
 import java.util.Date;
 

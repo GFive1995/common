@@ -1,4 +1,4 @@
-package com.thread;
+package com.concurrent.thread;
 
 /**
  * 
@@ -6,7 +6,7 @@ package com.thread;
  * 
  * @version 1.0
  */
-public class JoinDemo {
+public class ThreadJoinDemo {
 	
 	public static void main(String[] args) throws InterruptedException {
 		for (int i = 0; i < 10; i++) {

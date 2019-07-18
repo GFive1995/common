@@ -1,4 +1,4 @@
-package com.thread.atomicity;
+package com.concurrent.atomicity;
 
 /**
  * 

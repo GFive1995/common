@@ -1,4 +1,4 @@
-package com.thread;
+package com.concurrent.thread;
 
 /**
  * 
@@ -6,7 +6,7 @@ package com.thread;
  * 
  * @version 1.0
  */
-public class DeadLockDemo {
+public class ThreadDeadLockDemo {
 	private static Object resource1 = "资源1";
 	private static Object resource2 = "资源2";
 	

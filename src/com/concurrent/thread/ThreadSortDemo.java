@@ -1,4 +1,4 @@
-package com.thread;
+package com.concurrent.thread;
 
 /**
  * 
@@ -6,11 +6,11 @@ package com.thread;
  * 
  * @version 1.0
  */
-public class SortThreadDemo implements Runnable {
+public class ThreadSortDemo implements Runnable {
 
 	private int num;
 	
-	private SortThreadDemo(int num) {
+	private ThreadSortDemo(int num) {
 		this.num = num;
 	}
 	
@@ -26,7 +26,7 @@ public class SortThreadDemo implements Runnable {
 	public static void main(String[] args) {
 		int[] nums = {11, 3, 998, 5455, 1, 152, 990};
 		for (int i = 0; i < nums.length; i++) {
-			new Thread(new SortThreadDemo(nums[i])).start();
+			new Thread(new ThreadSortDemo(nums[i])).start();
 		}
 	}
 

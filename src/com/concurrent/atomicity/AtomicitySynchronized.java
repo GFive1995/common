@@ -1,32 +1,30 @@
-package com.thread.atomicity;
-
-import java.util.concurrent.atomic.AtomicInteger;
+package com.concurrent.atomicity;
 
 /**
  * 
- * AtomicInteger自增
- * 乐观锁
+ * synchronized自增
+ * 悲观锁
  * 
  * @version 1.0
  */
-public class AtomicityAtomicInteger {
+public class AtomicitySynchronized {
 
-	private AtomicInteger count = new AtomicInteger();
-	private void increase() {
-		count.getAndIncrement();
+	private int count = 0;
+	private synchronized void increase() {
+		count++;
 	}
 	
 	public static void main(String[] args) {
 		Long time = System.currentTimeMillis();
-		final AtomicityAtomicInteger atomicityAtomicInteger = new AtomicityAtomicInteger();
+		final AtomicitySynchronized atomicitySynchronized = new AtomicitySynchronized();
 		for (int i = 0; i < 10; i++) {
 			new Thread(new Runnable() {
 				public void run() {
 					for (int j = 0; j < 10000000; j++) {
-						atomicityAtomicInteger.increase();
+						atomicitySynchronized.increase();
 					}
 				}
-			}).start();
+			}).start();;
 		}
 		while(Thread.activeCount() > 1) {
 			try {
@@ -36,7 +34,7 @@ public class AtomicityAtomicInteger {
 			}
 		}
 		System.out.println("运行时间:" + (System.currentTimeMillis() - time));
-		System.out.println("AtomicInteger(乐观锁):" + atomicityAtomicInteger.count);
+		System.out.println("synchronized(悲观锁):" + atomicitySynchronized.count);
 	}
 	
 }

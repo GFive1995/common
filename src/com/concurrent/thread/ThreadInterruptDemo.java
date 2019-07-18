@@ -1,4 +1,4 @@
-package com.thread;
+package com.concurrent.thread;
 
 /**
  * 
@@ -6,7 +6,7 @@ package com.thread;
  * 
  * @version 1.0
  */
-public class InterruptDemo {
+public class ThreadInterruptDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		// 模拟正常运行发出中断信号

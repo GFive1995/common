@@ -12,6 +12,7 @@ public class RBTree<T extends Comparable<T>> {
 
 	private TreeNode<T> root;
 
+	@SuppressWarnings("hiding")
 	public class TreeNode<T extends Comparable<T>> {
 
 		TreeNode<T> parent; 	// 父节点

@@ -18,6 +18,8 @@ public class Sort {
 		selectionSort(a);				// 选择排序
 		insertSort1(a);					// 直接插入排序
 		insertSort2(a);					// 直接插入排序
+		mergeSort(a, 0, a.length-1);	// 归并排序
+		heapSort(a);					// 堆排序
 		quickSort(a, 0, a.length-1);	// 快速排序
 	}
 	
@@ -189,6 +191,84 @@ public class Sort {
 				a[index] = temp;
 			}
 			System.out.println("第" + i + "次排序结果：" + Arrays.toString(a));
+		}
+	}
+	
+	/**
+	 * 
+	 * 方法描述:归并排序
+	 * 将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。
+	 *
+	 * @param a
+	 * @param l
+	 * @param h
+	 * @return
+	 * 
+	 */
+	public static int[] mergeSort(int[] a, int l, int h) {
+		if (l == h) {
+			return new int[] {a[l]};
+		}
+		int mid = l + (h - l) / 2;
+		int[] leftA = mergeSort(a, l, mid);
+		int[] rightA = mergeSort(a, mid+1, h);
+		int[] newNum = new int[leftA.length + rightA.length];
+		
+		int m=0, i=0, j=0;
+		while(i < leftA.length && j < rightA.length) {
+			newNum[m++] = leftA[i] < rightA[j] ? leftA[i++] : rightA[j++];
+		}
+		while(i < leftA.length) {
+			newNum[m++] = leftA[i++];
+		}
+		while(j < rightA.length) {
+			newNum[m++] = rightA[j++];
+		}
+		System.out.println("排序结果：" + Arrays.toString(newNum));
+		return newNum;
+	}
+	
+	/**
+	 * 
+	 * 方法描述:堆排序
+	 *
+	 * @param a
+	 * @return
+	 * 
+	 */
+	public static int[] heapSort(int[] a){
+		for (int i = a.length / 2 - 1; i >= 0; i--) {
+			adjustHeap(a, i, a.length);
+		}
+		for (int j = a.length - 1; j > 0; j--) {
+			swap(a, 0, j);
+			adjustHeap(a, 0, j);
+			System.out.println("排序结果：" + Arrays.toString(a));
+		}
+		return a;
+	}
+	
+	/**
+	 * 
+	 * 方法描述:
+	 *
+	 * @param a		待组堆
+	 * @param i		起始点
+	 * @param length堆长度
+	 * 
+	 */
+	public static void adjustHeap(int[] a, int i, int length) {
+		int temp = a[i];
+		for (int k = 2 * i + 1; k < length; k = 2 * k + 1) {
+			if (k + 1 <length && a[k] < a[k + 1]) {
+				k++;
+			}
+			if (a[k] > temp) {
+				swap(a, i, k);
+				i = k;
+			} else {
+				break;
+			}
 		}
 	}
 	

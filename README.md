@@ -1,4 +1,4 @@
-# 一些常用地、有趣的方法学习整理。
+# Java学习整理
 
 # AOP(面向切面编程)  
 [cglib](https://github.com/GFive1995/common/tree/master/src/com/aop/cglib)  

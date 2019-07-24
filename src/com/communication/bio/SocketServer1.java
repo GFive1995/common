@@ -18,6 +18,7 @@ public class SocketServer1 {
 		ServerSocket serverSocket = new ServerSocket(83);
 		try {
 			while(true) {
+				// 监听要连接到此套接字的连接并接受它。方法阻塞，直到建立连接为止。
 				Socket socket = serverSocket.accept();
 				
 				// 接收信息

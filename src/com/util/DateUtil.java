@@ -121,7 +121,11 @@ public class DateUtil {
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTime(date);
 		int week = calendar.get(Calendar.DAY_OF_WEEK);
-		calendar.add(Calendar.DATE, 7+2-week);
+		if (week >= 2) {
+			calendar.add(Calendar.DATE, 9-week);
+		} else {
+			calendar.add(Calendar.DATE, 1);
+		}
 		return calendar.getTime();
 	}
 	

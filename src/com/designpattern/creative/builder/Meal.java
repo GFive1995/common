@@ -3,7 +3,12 @@ package com.designpattern.creative.builder;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * 
+ * 食物类
+ * 
+ * @version 1.0
+ */
 public class Meal {
 	
 	private List<Item> items = new ArrayList<Item>();

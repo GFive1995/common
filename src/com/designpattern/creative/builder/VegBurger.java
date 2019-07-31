@@ -1,6 +1,11 @@
 package com.designpattern.creative.builder;
 
-
+/**
+ * 
+ * 蔬菜汉堡
+ * 
+ * @version 1.0
+ */
 public class VegBurger extends Burger {
 
 	public String name() {

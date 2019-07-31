@@ -1,6 +1,11 @@
 package com.designpattern.creative.builder;
 
-
+/**
+ * 
+ * 鸡肉汉堡
+ * 
+ * @version 1.0
+ */
 public class ChickenBurger extends Burger {
 
 	@Override

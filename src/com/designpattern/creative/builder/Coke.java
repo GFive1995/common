@@ -1,6 +1,12 @@
 package com.designpattern.creative.builder;
 
 
+/**
+ * 
+ * 可乐
+ * 
+ * @version 1.0
+ */
 public class Coke extends ColdDrink {
 
 	@Override

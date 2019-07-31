@@ -1,6 +1,11 @@
 package com.designpattern.creative.builder;
 
-
+/**
+ * 
+ * 食物工厂
+ * 
+ * @version 1.0
+ */
 public class MealBuilder {
 
 	public Meal prepareVegMeal() {

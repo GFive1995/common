@@ -20,12 +20,13 @@
 [String数据类型](https://github.com/GFive1995/common/blob/master/src/com/datatype/StringDemo.java)  
 
 # 设计模式
-[抽象工厂模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/abstractfactory)  
-[工厂模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/factory)  
-[观察者模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/observer)    
-[单例模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/single)  
-[策略模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/strategy)  
-[模板模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/template)  
+[抽象工厂模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/creative/abstractfactory)  
+[工厂模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/creative/factory)  
+[单例模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/creative/single) 
+[享元模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/structural/flyweight) 
+[观察者模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/behavioral/observer)    
+[策略模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/behavioral/strategy)  
+[模板模式](https://github.com/GFive1995/common/tree/master/src/com/designpattern/behavioral/template)  
 
 # HTTPS
 [HTTPS+SSL](https://github.com/GFive1995/common/blob/master/src/com/https/HTTPS_SSL.java)  

@@ -628,7 +628,7 @@
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                       <bendpoints/>
-                      <stereoType></stereoType>
+                      <stereoType>asks</stereoType>
                     </net.java.amateras.uml.classdiagram.model.DependencyModel>
                   </targetConnections>
                   <children>

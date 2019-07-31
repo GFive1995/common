@@ -1862,7 +1862,7 @@
                                               <source class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                               <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../../../../.."/>
                                               <bendpoints/>
-                                              <stereoType></stereoType>
+                                              <stereoType>uses</stereoType>
                                             </net.java.amateras.uml.classdiagram.model.DependencyModel>
                                           </sourceConnections>
                                           <targetConnections/>
@@ -2046,7 +2046,7 @@
                                   </source>
                                   <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
                                   <bendpoints/>
-                                  <stereoType>use</stereoType>
+                                  <stereoType>uses</stereoType>
                                 </net.java.amateras.uml.classdiagram.model.DependencyModel>
                               </targetConnections>
                               <children>

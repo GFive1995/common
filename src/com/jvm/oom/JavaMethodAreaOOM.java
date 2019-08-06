@@ -9,7 +9,7 @@ import net.sf.cglib.proxy.MethodProxy;
 /**
  * 
  * 方法区内存溢出异常
- * java.lang.OutOfMemoryError: PermGen space
+ * JDK1.7	java.lang.OutOfMemoryError: PermGen space
  * 
  * -XX:PermSize=10M
  * -XX:MaxPermSize=10M

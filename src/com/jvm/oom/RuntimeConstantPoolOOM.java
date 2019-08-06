@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 
  * 运行时常量池导致内存溢出
- * java.lang.OutOfMemoryError: PermGen space
+ * JDK1.7	java.lang.OutOfMemoryError: PermGen space
  * 
  * -XX:PermSize=10M
  * -XX:MaxPermSize=10M

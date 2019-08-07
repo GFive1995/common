@@ -14,6 +14,7 @@ public class MyInvocationHandler implements InvocationHandler {
 	
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		// 目标方法执行前
+		System.out.println("-----JDK-----");
 		System.out.println("-----准备-----");
 		// 目标方法调用
 		Object object = method.invoke(target, args);

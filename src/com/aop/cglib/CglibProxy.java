@@ -20,6 +20,7 @@ public class CglibProxy implements MethodInterceptor {
 	
 	public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
 		// 目标方法执行前
+		System.out.println("-----cglib-----");
 		System.out.println("-----准备-----");
 		// 目标方法调用
 		Object result = proxy.invokeSuper(obj, args);

@@ -6,7 +6,12 @@ import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
-
+/**
+ * 
+ * cglib动态代理
+ * 
+ * @version 1.0
+ */
 public class CglibProxy implements MethodInterceptor {
 
 	Enhancer enhancer = new Enhancer();

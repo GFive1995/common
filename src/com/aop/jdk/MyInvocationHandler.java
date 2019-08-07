@@ -3,7 +3,12 @@ package com.aop.jdk;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-
+/**
+ * 
+ * jdk动态代理
+ * 
+ * @version 1.0
+ */
 public class MyInvocationHandler implements InvocationHandler {
 
 	private Object target;

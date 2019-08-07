@@ -1,4 +1,4 @@
-package com.basics;
+package com.basics.keyword;
 
 /**
  * 
@@ -9,7 +9,7 @@ package com.basics;
  * 
  * @version 1.0
  */
-public class SynchronizedTag {
+public class SynchronizedKeyword {
 
 	/**
 	 * 
@@ -41,7 +41,7 @@ public class SynchronizedTag {
 		/**
 		 * 与修饰静态方法一样
 		 */
-		synchronized (SynchronizedTag.class) {
+		synchronized (SynchronizedKeyword.class) {
 			
 		}
 	}

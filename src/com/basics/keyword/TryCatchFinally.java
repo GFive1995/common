@@ -1,4 +1,4 @@
-package com.basics;
+package com.basics.keyword;
 
 /**
  * 

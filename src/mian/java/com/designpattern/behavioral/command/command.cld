@@ -463,7 +463,7 @@
                                     </propertyDescriptors>
                                     <stereoType></stereoType>
                                     <name>com.designpattern.behavioral.command.CommandDemo</name>
-                                    <path>/common/src/com/designpattern/behavioral/command/CommandDemo.java</path>
+                                    <path>/common/src/mian/java/com/designpattern/behavioral/command/CommandDemo.java</path>
                                     <isAbstract>false</isAbstract>
                                   </source>
                                   <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -604,7 +604,7 @@
                               </propertyDescriptors>
                               <stereoType></stereoType>
                               <name>com.designpattern.behavioral.command.Stock</name>
-                              <path>/common/src/com/designpattern/behavioral/command/Stock.java</path>
+                              <path>/common/src/mian/java/com/designpattern/behavioral/command/Stock.java</path>
                               <isAbstract>false</isAbstract>
                             </source>
                             <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -733,7 +733,7 @@
                         </propertyDescriptors>
                         <stereoType></stereoType>
                         <name>com.designpattern.behavioral.command.SellStock</name>
-                        <path>/common/src/com/designpattern/behavioral/command/SellStock.java</path>
+                        <path>/common/src/mian/java/com/designpattern/behavioral/command/SellStock.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.InterfaceModel" reference="../../.."/>
@@ -820,7 +820,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.command.Order</name>
-                  <path>/common/src/com/designpattern/behavioral/command/Order.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/command/Order.java</path>
                 </target>
                 <bendpoints/>
               </net.java.amateras.uml.classdiagram.model.RealizationModel>
@@ -949,7 +949,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.command.BuyStock</name>
-            <path>/common/src/com/designpattern/behavioral/command/BuyStock.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/command/BuyStock.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[2]/sourceConnections/net.java.amateras.uml.classdiagram.model.RealizationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.RealizationModel[2]/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source"/>
@@ -1097,7 +1097,7 @@
       </propertyDescriptors>
       <stereoType></stereoType>
       <name>com.designpattern.behavioral.command.Broker</name>
-      <path>/common/src/com/designpattern/behavioral/command/Broker.java</path>
+      <path>/common/src/mian/java/com/designpattern/behavioral/command/Broker.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[2]"/>

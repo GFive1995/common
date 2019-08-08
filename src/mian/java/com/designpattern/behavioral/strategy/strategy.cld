@@ -258,7 +258,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.strategy.OperationAdd</name>
-            <path>/common/src/com/designpattern/behavioral/strategy/OperationAdd.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/strategy/OperationAdd.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -422,7 +422,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.strategy.OperationDiv</name>
-            <path>/common/src/com/designpattern/behavioral/strategy/OperationDiv.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/strategy/OperationDiv.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -601,7 +601,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.strategy.OperationSub</name>
-            <path>/common/src/com/designpattern/behavioral/strategy/OperationSub.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/strategy/OperationSub.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel>
@@ -765,7 +765,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.strategy.OperationMul</name>
-            <path>/common/src/com/designpattern/behavioral/strategy/OperationMul.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/strategy/OperationMul.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
         </children>
@@ -999,7 +999,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.strategy.StrategyTest</name>
-                  <path>/common/src/com/designpattern/behavioral/strategy/StrategyTest.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/strategy/StrategyTest.java</path>
                   <isAbstract>false</isAbstract>
                 </source>
                 <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -1133,7 +1133,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.strategy.Context</name>
-            <path>/common/src/com/designpattern/behavioral/strategy/Context.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/strategy/Context.java</path>
             <isAbstract>false</isAbstract>
           </target>
           <bendpoints/>
@@ -1239,7 +1239,7 @@
       </propertyDescriptors>
       <stereoType></stereoType>
       <name>com.designpattern.behavioral.strategy.Strategy</name>
-      <path>/common/src/com/designpattern/behavioral/strategy/Strategy.java</path>
+      <path>/common/src/mian/java/com/designpattern/behavioral/strategy/Strategy.java</path>
     </net.java.amateras.uml.classdiagram.model.InterfaceModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[2]"/>

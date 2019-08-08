@@ -344,7 +344,7 @@
                         </propertyDescriptors>
                         <stereoType></stereoType>
                         <name>com.designpattern.behavioral.template.Basketball</name>
-                        <path>/common/src/com/designpattern/behavioral/template/Basketball.java</path>
+                        <path>/common/src/mian/java/com/designpattern/behavioral/template/Basketball.java</path>
                         <isAbstract>false</isAbstract>
                       </net.java.amateras.uml.classdiagram.model.ClassModel>
                       <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../.."/>
@@ -445,7 +445,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.template.TemplateTest</name>
-                  <path>/common/src/com/designpattern/behavioral/template/TemplateTest.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/template/TemplateTest.java</path>
                   <isAbstract>false</isAbstract>
                 </source>
                 <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -566,7 +566,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.template.Football</name>
-            <path>/common/src/com/designpattern/behavioral/template/Football.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/template/Football.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel[2]/targetConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[3]"/>
@@ -731,7 +731,7 @@
       </propertyDescriptors>
       <stereoType></stereoType>
       <name>com.designpattern.behavioral.template.Game</name>
-      <path>/common/src/com/designpattern/behavioral/template/Game.java</path>
+      <path>/common/src/mian/java/com/designpattern/behavioral/template/Game.java</path>
       <isAbstract>true</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[2]"/>

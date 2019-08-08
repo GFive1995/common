@@ -409,7 +409,7 @@
                               </propertyDescriptors>
                               <stereoType></stereoType>
                               <name>com.designpattern.behavioral.observer.JobTwo</name>
-                              <path>/common/src/com/designpattern/behavioral/observer/JobTwo.java</path>
+                              <path>/common/src/mian/java/com/designpattern/behavioral/observer/JobTwo.java</path>
                               <isAbstract>false</isAbstract>
                             </net.java.amateras.uml.classdiagram.model.ClassModel>
                             <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../../../../.."/>
@@ -594,7 +594,7 @@
                                     </propertyDescriptors>
                                     <stereoType></stereoType>
                                     <name>com.designpattern.behavioral.observer.ObserverTest</name>
-                                    <path>/common/src/com/designpattern/behavioral/observer/ObserverTest.java</path>
+                                    <path>/common/src/mian/java/com/designpattern/behavioral/observer/ObserverTest.java</path>
                                     <isAbstract>false</isAbstract>
                                   </source>
                                   <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -718,7 +718,7 @@
                               </propertyDescriptors>
                               <stereoType></stereoType>
                               <name>com.designpattern.behavioral.observer.ObserverUtil</name>
-                              <path>/common/src/com/designpattern/behavioral/observer/ObserverUtil.java</path>
+                              <path>/common/src/mian/java/com/designpattern/behavioral/observer/ObserverUtil.java</path>
                               <isAbstract>false</isAbstract>
                             </net.java.amateras.uml.classdiagram.model.ClassModel>
                             <net.java.amateras.uml.classdiagram.model.ClassModel reference="../../.."/>
@@ -807,7 +807,7 @@
                         </propertyDescriptors>
                         <stereoType></stereoType>
                         <name>com.designpattern.behavioral.observer.ObserverUtil.CachedObservable</name>
-                        <path>/common/src/com/designpattern/behavioral/observer/ObserverUtil.java</path>
+                        <path>/common/src/mian/java/com/designpattern/behavioral/observer/ObserverUtil.java</path>
                         <isAbstract>false</isAbstract>
                       </source>
                       <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -1000,7 +1000,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.observer.Observable</name>
-                  <path>/common/src/com/designpattern/behavioral/observer/Observable.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/observer/Observable.java</path>
                   <isAbstract>true</isAbstract>
                 </target>
                 <bendpoints/>
@@ -1216,7 +1216,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.observer.Observer</name>
-            <path>/common/src/com/designpattern/behavioral/observer/Observer.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/observer/Observer.java</path>
           </net.java.amateras.uml.classdiagram.model.InterfaceModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target/targetConnections/net.java.amateras.uml.classdiagram.model.GeneralizationModel/source/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel[2]"/>
           <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/sourceConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/target"/>
@@ -1327,7 +1327,7 @@
       </propertyDescriptors>
       <stereoType></stereoType>
       <name>com.designpattern.behavioral.observer.JobOne</name>
-      <path>/common/src/com/designpattern/behavioral/observer/JobOne.java</path>
+      <path>/common/src/mian/java/com/designpattern/behavioral/observer/JobOne.java</path>
       <isAbstract>false</isAbstract>
     </net.java.amateras.uml.classdiagram.model.ClassModel>
     <net.java.amateras.uml.classdiagram.model.InterfaceModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/parent/children/net.java.amateras.uml.classdiagram.model.InterfaceModel"/>

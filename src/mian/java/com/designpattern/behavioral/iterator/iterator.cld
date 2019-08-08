@@ -188,7 +188,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.iterator.Container</name>
-                  <path>/common/src/com/designpattern/behavioral/iterator/Container.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/iterator/Container.java</path>
                 </target>
                 <bendpoints/>
               </net.java.amateras.uml.classdiagram.model.RealizationModel>
@@ -386,7 +386,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.iterator.NameRepositiry.NameIterator</name>
-                  <path>/common/src/com/designpattern/behavioral/iterator/NameRepositiry.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/iterator/NameRepositiry.java</path>
                   <isAbstract>false</isAbstract>
                 </target>
                 <bendpoints/>
@@ -504,7 +504,7 @@
                   </propertyDescriptors>
                   <stereoType></stereoType>
                   <name>com.designpattern.behavioral.iterator.IteratorDemo</name>
-                  <path>/common/src/com/designpattern/behavioral/iterator/IteratorDemo.java</path>
+                  <path>/common/src/mian/java/com/designpattern/behavioral/iterator/IteratorDemo.java</path>
                   <isAbstract>false</isAbstract>
                 </source>
                 <target class="net.java.amateras.uml.classdiagram.model.ClassModel" reference="../../.."/>
@@ -602,7 +602,7 @@
             </propertyDescriptors>
             <stereoType></stereoType>
             <name>com.designpattern.behavioral.iterator.NameRepositiry</name>
-            <path>/common/src/com/designpattern/behavioral/iterator/NameRepositiry.java</path>
+            <path>/common/src/mian/java/com/designpattern/behavioral/iterator/NameRepositiry.java</path>
             <isAbstract>false</isAbstract>
           </net.java.amateras.uml.classdiagram.model.ClassModel>
           <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.ClassModel/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target"/>
@@ -718,7 +718,7 @@
       </propertyDescriptors>
       <stereoType></stereoType>
       <name>com.designpattern.behavioral.iterator.Iterator</name>
-      <path>/common/src/com/designpattern/behavioral/iterator/Iterator.java</path>
+      <path>/common/src/mian/java/com/designpattern/behavioral/iterator/Iterator.java</path>
     </net.java.amateras.uml.classdiagram.model.InterfaceModel>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel"/>
     <net.java.amateras.uml.classdiagram.model.ClassModel reference="../net.java.amateras.uml.classdiagram.model.InterfaceModel/parent/children/net.java.amateras.uml.classdiagram.model.ClassModel/sourceConnections/net.java.amateras.uml.classdiagram.model.DependencyModel/target"/>

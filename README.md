@@ -1,9 +1,5 @@
 # Java学习整理
 
-# AOP(面向切面编程)  
-[cglib](https://github.com/GFive1995/common/tree/master/src/com/aop/cglib)  
-[jdk](https://github.com/GFive1995/common/tree/master/src/com/aop/jdk)  
-
 # 通信
 [AIO(异步IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/aio)  
 [BIO(同步阻塞IO)](https://github.com/GFive1995/common/tree/master/src/com/communication/bio)  

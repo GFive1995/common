@@ -1,4 +1,4 @@
-package com.aop;
+package com.proxy;
 
 public class SayingImpl implements Saying {
 

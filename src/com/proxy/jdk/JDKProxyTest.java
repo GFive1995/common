@@ -1,9 +1,9 @@
-package com.aop.jdk;
+package com.proxy.jdk;
 
 import java.lang.reflect.Proxy;
 
-import com.aop.Saying;
-import com.aop.SayingImpl;
+import com.proxy.Saying;
+import com.proxy.SayingImpl;
 
 
 public class JDKProxyTest {

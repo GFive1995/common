@@ -1,7 +1,7 @@
-package com.aop.cglib;
+package com.proxy.cglib;
 
-import com.aop.Saying;
-import com.aop.SayingImpl;
+import com.proxy.Saying;
+import com.proxy.SayingImpl;
 
 
 public class CglibProxyTest {

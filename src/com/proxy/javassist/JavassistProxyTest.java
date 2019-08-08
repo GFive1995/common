@@ -1,6 +1,6 @@
-package com.aop.javassist;
+package com.proxy.javassist;
 
-import com.aop.SayingImpl;
+import com.proxy.SayingImpl;
 
 
 public class JavassistProxyTest {

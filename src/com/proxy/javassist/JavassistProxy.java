@@ -1,4 +1,4 @@
-package com.aop.javassist;
+package com.proxy.javassist;
 
 import java.lang.reflect.Method;
 

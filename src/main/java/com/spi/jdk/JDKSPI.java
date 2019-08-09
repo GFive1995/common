@@ -2,8 +2,6 @@ package com.spi.jdk;
 
 import java.util.ServiceLoader;
 
-import com.spi.Robot;
-
 /**
  * 
  * SPI:Service Provider Interface，一种服务发现机制。

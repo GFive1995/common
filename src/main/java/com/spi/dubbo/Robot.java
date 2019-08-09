@@ -1,6 +1,6 @@
-package com.spi;
+package com.spi.dubbo;
 
-
+@SPI
 public interface Robot {
 	void sayHello();
 }

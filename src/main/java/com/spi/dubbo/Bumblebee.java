@@ -1,4 +1,4 @@
-package com.spi;
+package com.spi.dubbo;
 
 
 public class Bumblebee implements Robot {

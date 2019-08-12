@@ -12,6 +12,11 @@ import java.util.concurrent.SynchronousQueue;
  * 
  * 阻塞队列
  * 
+ * 方法/处理方式	抛出异常		返回特殊值		一直阻塞		超时退出
+ * 插入方法		add(e)		offer(e)	put(e)		offer(e, time, unit)
+ * 移除方法		remove(e)	poll()		take()		poll(time, unit)
+ * 检查方法		element()	peek()		不可以		不可以	
+ * 		
  * @version 1.0
  */
 public class BlockQueue {

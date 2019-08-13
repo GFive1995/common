@@ -54,7 +54,24 @@ public class ThreadPoolExecutorSimple {
 			System.out.println("线程池中线程数目："+threadPoolExecutor.getPoolSize()+"，队列中等待执行的任务数目："+
 					threadPoolExecutor.getQueue().size()+"，已执行玩别的任务数目："+threadPoolExecutor.getCompletedTaskCount());
 		}
+		/**
+		 * 线程池拒绝接受新提交的任务，等待线程池的任务执行完毕后关闭线程池。
+		 * 使用shutdown()关闭线程池，一定要确保任务里不会有永久阻塞的等待的逻辑，否则线程池就关闭不了了。
+		 */
 		threadPoolExecutor.shutdown();
+		/**
+		 * 线程池拒绝接受新提交的任务，立即关闭线程池，线程池中的任务不再执行。
+		 * 使用shutdownNow()关闭线程池，一定要进行异常捕获。
+		 */
+		threadPoolExecutor.shutdownNow();
+		try {
+			/**
+			 * 调用shutdown()/shutdownNow()方法后线程池并不是立马关闭了，要想等待线程关闭需要调用awaitTermination方法来阻塞等待。
+			 */
+			threadPoolExecutor.awaitTermination(1, TimeUnit.MINUTES);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	private static class TestRunnable implements Runnable {

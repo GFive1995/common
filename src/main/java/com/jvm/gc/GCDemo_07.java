@@ -20,7 +20,7 @@ package com.jvm.gc;
  * 		3.array_3的3M数组进入老年代。
  * 		4.此时老年代使用空间9M：一个array_1的3M数组，一个array_2的3M数组，一个array_3的3M数组。
  * 5、第四次YoungGC引发FullGC
- * 		1.将array_1、array_2、array_3设置为null，表示可以被GC清除。
+ * 		1.将array_1、array_2、array_3，array_4，array_5设置为null，表示可以被GC清除。
  * 		2.创建一个3M数组array_5，一个1M数组，一个512K数组，两个256K数组。
  * 		3.此时Eden区域内存大小不够，引发YoungGC。
  * 		4.此时老年代使用空间9M，老年代老年代剩余空间1M，历次进入老年代平均大小3M，老年代可以空间小于新生代平均进入老年代大小，提前触发FullGC。
@@ -57,7 +57,9 @@ public class GCDemo_07 {
 		array_1 = null;
 		array_2 = null;
 		array_3 = null;
+		array_4 = null;
 		byte[] array_5 = new byte[3* 1024 * 1024];
+		array_5 = null;
 		byte[] array_6 = new byte[1* 1024 * 1024];
 		array_6 = new byte[512 * 1024];
 		array_6 = new byte[256 * 1024];

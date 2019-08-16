@@ -2,6 +2,7 @@ package com.jvm.gc;
 
 /**
  * 
+ * 对象如何进入老年
  * 模拟躲过指定年龄阈值进入老年代(XX:MaxTenuringThreshold=5，表示5次GC后进入老年代)
  * 1、新生代大小20M，Eden大小6M，from大小2M，to大小2M，JVM系统使用内存大小1M(GCDemo_00得知)。
  * 2、第一次GC

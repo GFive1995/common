@@ -2,6 +2,7 @@ package com.jvm.gc;
 
 /**
  * 
+ * 对象如何进入老年
  * 模拟大对象直接进入老年代(-XX:PretenureSizeThreshold=5242880)
  * 
  * JVM参数设置(JDK1.8)

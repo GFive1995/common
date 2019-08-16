@@ -2,7 +2,7 @@ package com.jvm.gc;
 
 /**
  * 
- * 对象如何进入老年
+ * 对象进入老年的四种情况(3)
  * 模拟YoungGC后对象因为放不下Survivor区域，直接进入老年代
  * 1、新生代大小20M，Eden大小8M，from大小1M，to大小1M，JVM系统使用内存大小1M(GCDemo_00得知)。
  * 2、第一次GC

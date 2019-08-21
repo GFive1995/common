@@ -19,8 +19,8 @@
 [行为型模式](https://github.com/GFive1995/common/tree/master/src/main/java/com/designpattern/behavioral)  
 
 # JVM
-[GC(模拟Java GC的各种情况)](https://github.com/GFive1995/common/tree/master/src/main/java/com/jvm/gc)  
-[OOM(模拟Java OOM的各种情况)](https://github.com/GFive1995/common/tree/master/src/main/java/com/jvm/oom)      
+[GC (模拟Java GC的各种情况)](https://github.com/GFive1995/common/tree/master/src/main/java/com/jvm/gc)  
+[OOM (模拟Java OOM的各种情况)](https://github.com/GFive1995/common/tree/master/src/main/java/com/jvm/oom)      
 
 # 动态代理
 [Cglib](https://github.com/GFive1995/common/tree/master/src/main/java/com/proxy/cglib)  

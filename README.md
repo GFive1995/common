@@ -1,5 +1,13 @@
 # Java学习整理
 
+# 通信
+[aio](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/aio)  
+[bio](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/bio)  
+[mio](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/mio)  
+[netty](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/netty)  
+[nio](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/nio)  
+[rmi](https://github.com/GFive1995/common/blob/master/src/main/java/com/communication/rmi)  
+
 # 并发
 [原子操作](https://github.com/GFive1995/common/tree/master/src/main/java/com/concurrent/atomicity)  
 [线程池](https://github.com/GFive1995/common/tree/master/src/main/java/com/concurrent/pool)  

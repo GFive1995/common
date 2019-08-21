@@ -1,5 +1,10 @@
 # Java学习整理
 
+# 并发
+[原子操作](https://github.com/GFive1995/common/tree/master/src/main/java/com/concurrent/atomicity)  
+[线程池](https://github.com/GFive1995/common/tree/master/src/main/java/com/concurrent/pool)  
+[多线程](https://github.com/GFive1995/common/tree/master/src/main/java/com/concurrent/thread)  
+
 # 设计模式
 [创建型模式](https://github.com/GFive1995/common/tree/master/src/main/java/com/designpattern/creative)  
 [结构型模式](https://github.com/GFive1995/common/tree/master/src/main/java/com/designpattern/structural)  

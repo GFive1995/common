@@ -30,3 +30,9 @@
 # SPI
 [dubbo](https://github.com/GFive1995/common/tree/master/src/main/java/com/spi/dubbo)  
 [jdk](https://github.com/GFive1995/common/tree/master/src/main/java/com/spi/jdk)  
+
+
+# 常用方法
+[汉字转换拼音](https://github.com/GFive1995/common/blob/master/src/main/java/com/util/PinyinTool.java)  
+[获取图片验证码](https://github.com/GFive1995/common/blob/master/src/main/java/com/util/ValidationCode.java)  
+[获取2019年工作日/休息日后导入Excel](https://github.com/GFive1995/common/blob/master/src/main/java/com/util/WorkingDay.java)  

@@ -28,7 +28,7 @@
 [JDK](https://github.com/GFive1995/common/tree/master/src/main/java/com/proxy/jdk)
 
 # SPI
-[Gubbo](https://github.com/GFive1995/common/tree/master/src/main/java/com/spi/dubbo)  
+[Dubbo](https://github.com/GFive1995/common/tree/master/src/main/java/com/spi/dubbo)  
 [JDK](https://github.com/GFive1995/common/tree/master/src/main/java/com/spi/jdk)  
 
 

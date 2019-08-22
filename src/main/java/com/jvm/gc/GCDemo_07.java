@@ -4,6 +4,7 @@ package com.jvm.gc;
  * 
  * 模拟老年代GC触发情况
  * 老年代可用空间小于新生代平均进入老年代的大小，提前触发Full GC
+ * 1、新生代大小10M，Eden大小8M，from大小1M，to大小1M，XX:PretenureSizeThreshold=5242880(大于5M对象直接进入老年代)。
  * 2、第一次YoungGC
  * 		1.创建一个3M数组array_1，array_1指向第二个3M数组，原来指向的数组可以被GC清除。
  * 		2.创建一个3M数组array_2，Eden区域大小不够，引发YoungGC。

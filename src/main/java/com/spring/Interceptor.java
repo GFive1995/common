@@ -17,7 +17,7 @@ import com.alibaba.fastjson.JSONArray;
 /**
  * 
  * 拦截器
- * 新增修改时只能录入 数字、汉子、下划线
+ * 新增修改时只能录入 数字、汉字、下划线
  *
  */
 public class Interceptor extends HandlerInterceptorAdapter {

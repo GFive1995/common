@@ -6,11 +6,12 @@ import java.util.Date;
 
 public class DateUtil {
 	
-	public static final String FORMAT_SERIAL_NUMBER = "yyyyMMddHHmmss";
+	public static final String FORMAT_SERIAL_NUMBER = "yyyyMMdd";
 	public static final String FORMAT_DEFAULT = "yyyy-MM-dd HH:mm:ss";
 	
 	public static void main(String[] args) {
-		System.out.println(dateToString(new Date(), DateUtil.FORMAT_DEFAULT));
+		System.out.println(dateToString(new Date(), "yyyy年MM月dd日"));
+		System.out.println(dateToString(new Date(), DateUtil.FORMAT_SERIAL_NUMBER));
 		System.out.println(stringToDate("2019-07-03 00:00:00", DateUtil.FORMAT_DEFAULT));
 		System.out.println(getAfterDate(new Date(), 1));
 		System.out.println(getBeforeDate(new Date(), 1));

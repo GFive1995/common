@@ -17,13 +17,13 @@ package com.basics.keyword;
 public class TryCatchFinally {
 
 	public static void main(String[] args) {
-//		System.out.println(tryCatchFinally_01());
-//		System.out.println(tryCatchFinally_02());
-//		System.out.println(tryCatchFinally_03());
-//		System.out.println(tryCatchFinally_04());
-//		System.out.println(tryCatchFinally_05());
-//		System.out.println(tryCatchFinally_06());
-//		System.out.println(tryCatchFinally_07());
+		System.out.println(tryCatchFinally_01());
+		System.out.println(tryCatchFinally_02());
+		System.out.println(tryCatchFinally_03());
+		System.out.println(tryCatchFinally_04());
+		System.out.println(tryCatchFinally_05());
+		System.out.println(tryCatchFinally_06());
+		System.out.println(tryCatchFinally_07());
 	}
 	
 	public static String tryCatchFinally_01() {

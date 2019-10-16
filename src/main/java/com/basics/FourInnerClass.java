@@ -36,7 +36,7 @@ public class FourInnerClass {
 		System.out.println("--------------------");
 		
 		/**
-		 * 匿名内部类
+		 * 静态内部类
 		 * 创建时不需要依附于外部类，不能使用外部类非静态属性和方法
 		 */
 		new StaticInnerClass();
@@ -54,7 +54,7 @@ public class FourInnerClass {
 		 */
 		new Thread(new Runnable() {
 			/**
-			 * 匿名内部类可以定义常量
+			 * 匿名内部类可以定义变量
 			 * 匿名内部类不能定义常量和静态属性
 			 * protected static String attribute = "成员内部类静态属性";
 			 * public final attribute1 = "成员内部类常量";

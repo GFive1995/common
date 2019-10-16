@@ -9,7 +9,7 @@ package com.basics.keyword;
 public abstract class Abstract {
 
 	/**
-	 * 抽象方法可以包含常量，变量，静态成员，构造方法，方式实现
+	 * 抽象类可以包含常量，变量，静态成员，构造方法，方式实现
 	 */
 	private final String ATTRIBUTE_A = "ATTRIBUTE_A";
 	private String ATTRIBUTE_B;

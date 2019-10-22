@@ -20,7 +20,7 @@ public class MailUtil {
 	private static String SMTP_PROTOCOL = "smtp";				// 邮件连接协议
 	private static String SMTP_AUTH = "true";					// 是否开启身份认证
 	private static String AUTH_USER = "974345887@qq.com";		// 发送邮件账号
-	private static String AUTH_PASSWORD = "";					// 发送邮件密码(可以使用服务验证码，不使用真正的密码)
+	private static String AUTH_PASSWORD = "uuqdolnvnytbbcej";	// 发送邮件密码(可以使用服务验证码，不使用真正的密码)
 	private static String FROM_ADDRESS = "974345887@qq.com";	// 发送邮箱号
 	private static String TO_ADDRESS = "1756096867@qq.com";		// 接收邮箱号
 	
